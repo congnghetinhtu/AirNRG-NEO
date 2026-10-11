@@ -1,0 +1,28 @@
+# Swift / Xcode
+.build/
+*.o
+*.dSYM/
+DerivedData/
+
+# Built app bundle (rebuild with ./build-app.sh)
+*.app/
+
+# Disc images + extracted audio (never commit these)
+*.nrg
+*.NRG
+*.iso
+*.bin
+*.wav
+*.flac
+*.mp3
+*_wav/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp

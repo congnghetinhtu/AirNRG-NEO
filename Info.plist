@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key><string>com.example.airnrg-neo</string>
+  <key>CFBundleName</key><string>AirNRG Neo</string>
+  <key>CFBundleDisplayName</key><string>AirNRG Neo</string>
+  <key>CFBundleGetInfoString</key><string>CDs, Archived!</string>
+  <key>CFBundleVersion</key><string>1.0</string>
+  <key>CFBundleShortVersionString</key><string>1.0</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleExecutable</key><string>AirNRGNeo</string>
+  <key>CFBundleIconFile</key><string></string>
+  <key>LSMinimumSystemVersion</key><string>13.0</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>CFBundleDocumentTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleTypeName</key><string>Nero Disc Image</string>
+      <key>CFBundleTypeRole</key><string>Viewer</string>
+      <key>LSItemContentTypes</key><array><string>public.data</string></array>
+      <key>CFBundleTypeExtensions</key><array><string>nrg</string></array>
+    </dict>
+  </array>
+</dict>
+</plist>
